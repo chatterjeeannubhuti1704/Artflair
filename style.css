@@ -196,7 +196,7 @@ h6 b {
     padding: 0 20px 0 80px;
 }
 
-.booking-form form input {
+.booking-form-input {
 
     font-family: "Geomanist book";
     font-size: 16px;
@@ -208,17 +208,18 @@ h6 b {
     border-right: none;
     padding: 10px 15px;
     margin-bottom: 10px;
+    background: none;
 }
 
-.booking-form form input:focus {
-    border-bottom: 1px solid #484848;
+.booking-form-input:focus {
+    border-bottom: 2px solid #fa1d8f !important;
     outline: none;
     border-top: none;
     border-left: none;
     border-right: none;
 }
 
-.booking-form form input:focus::placeholder {
+.booking-form-input:focus::placeholder {
     color: transparent;
     border: none;
 }
@@ -403,23 +404,30 @@ h6 b {
 }
 
 
-.faq-container{
+.faq-container {
     padding: 5rem 0;
 }
-.faq-container .row{
+
+.faq-container .row {
     margin: 1rem 0;
 }
-.faq-container .accordion-item{
-    border-left: none !important;border-right: none !important;
+
+.faq-container .accordion-item {
+    border-left: none !important;
+    border-right: none !important;
 }
-.faq-container .accordion-button{
-    font-size: 24px !important;
+
+.faq-container .accordion-button {
+    font-size: 22px !important;
     border: none !important;
+    font-weight: 200;
 }
-.faq-container .accordion-button::after{
+
+.faq-container .accordion-button::after {
     content: "+" !important;
-background: none !important;
+    background: none !important;
 }
+
 .faq-container .accordion-button:not(.collapsed)::after {
     content: "-" !important;
 }
@@ -468,4 +476,90 @@ background: none !important;
     font-size: 14px;
     color: #fff;
     margin: 0 !important;
+}
+
+
+
+.contact-us {
+    background: url(img/con-us.png) no-repeat;
+}
+
+.contact-us-container {
+    padding: 5rem 0;
+}
+
+.contactus-left {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form2 form {
+    padding: 2rem 0;
+}
+
+.booking-form2 .booking-form-input {
+    border-bottom: 1px solid #9e42c9;
+    margin-bottom: 2rem;
+}
+
+.booking-form-input::placeholder,
+.booking-form2 form textarea::placeholder {
+    font-weight: 200 !important;
+}
+
+.booking-form2 form textarea {
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #ae80c4;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.booking-form2 form textarea {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+.booking-form2 form textarea:focus {
+    border-bottom: 2px solid #fa1d8f !important;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1199px) {
+    .reasons>div {
+        margin: 0 0px 2px 0;
+    }
+
+    .reasons {
+        margin: 5rem 0px;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .grid-parent {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .grid-parent {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-parent2 {
+        grid-template-columns: 1fr;
+    }
 }
