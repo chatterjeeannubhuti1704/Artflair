@@ -1,0 +1,73 @@
+
+
+/* Geomanist */
+@font-face {
+    font-family: "Geomanist";
+    src: url('Font/Geomanist-Black.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: "Geomanist";
+    src: url('Font/Geomanist-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "Geomanist book";
+    src: url('Font/Geomanist-Book.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "Geomanist";
+    src: url('Font/Geomanist-ExtraLight.ttf') format('truetype');
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: "Geomanist";
+    src: url('Font/Geomanist-Light.ttf') format('truetype');
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: "Geomanist";
+    src: url('Font/Geomanist-Regular.ttf') format('truetype'),
+    url('Font/Geomanist-Regular.otf') format('opentype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Geomanist";
+    src: url('Font/Geomanist-Regular-Italic.otf') format('opentype');;
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Geomanist";
+    src: url('Font/Geomanist-Medium.ttf') format('truetype');
+    font-weight:500 ;
+  }
+  @font-face {
+    font-family: "Geomanist";
+    src: url('Font/Geomanist-Ultra.ttf') format('truetype');
+    font-weight:600 ;
+  }
+  @font-face {
+    font-family: "Geomanist";
+    src: url('Font/Geomanist-Thin.ttf') format('truetype');
+    font-weight:lighter;
+  }
+
+
+  /* LibreBaskerville */
+  @font-face {
+    font-family: "LibreBaskerville";
+    src: url('Font/LibreBaskerville-Bold.ttf') format('truetype');
+    font-weight:bold;
+  }
+  @font-face {
+    font-family: "LibreBaskerville";
+    src: url('Font/LibreBaskerville-Regular.ttf') format('truetype');
+    font-weight:400;
+  }
+  @font-face {
+    font-family: "LibreBaskerville";
+    src: url('Font/LibreBaskerville-Italic.ttf') format('truetype');
+    font-style: italic;
+  }

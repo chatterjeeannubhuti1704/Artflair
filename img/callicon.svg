@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="18" cy="18" r="18"/>
+  <image x="11" y="11" width="15" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAA5ElEQVQokZWSsUqCURzFf7bo2lAO7UaD0BIIKW69QE0h5NqjuNUbNDXYSzSIQ7SLLyCJEKWj1E++uMLt61NvB85d/v9z7zmHi3qnvqsf6lx9Uisqu5gdU/+imSLeA2b8hkCdBGTiSW6tBJykil9TFguhXqhfUeqxWkstrKq+ROLLFOG6sCnwELlq/Md2xn11EF5eqtepttdsq5NwwUztRLNj9T7wVj1Xy/nbbtRF5KCnXqmjqJPvMOsX2emqbwW/Lo/FpjxZhOcd4vm2Qg5CvuEG8Wfpp7XtqAKnQAs4A46AQ+BxBUEvB8OtTEkEAAAAAElFTkSuQmCC"/>
+</svg>
