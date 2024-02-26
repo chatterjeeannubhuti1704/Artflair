@@ -439,10 +439,37 @@ h6 b {
 
 }
 
-
-
-
-
+.testimonial{
+    background-color: #f3e8db;
+}
+.testimonial-container{
+    padding: 5rem 0;
+}
+.contol-btns .carousel-control-prev, .contol-btns .carousel-control-next{
+    position: static;
+    display: inline-block;
+    padding: 0.6rem 1rem 0.4rem;
+    background: linear-gradient(133deg, #fa1d8f,#175ead);
+    opacity: 100%;
+    width: auto;
+    border-radius: 0 !important;
+    margin: 0 1rem;}
+    .user-card{
+background: #fff;border:1px solid #eaeaea;padding:1rem 2rem;}
+.review-part{
+    border-bottom: 1px solid #eaeaea;height: 10rem;
+}
+.review-part p{
+    font-size: 24px;    font-weight: 300;
+}
+.user-part{
+    display: flex;    align-items: center;    justify-content: flex-start;
+}
+.user-part div{
+    padding: 1rem;
+}
+.user-part div p:nth-child(1){margin: 0;    font-size: 22px;}
+.user-part div p:nth-child(2){margin: 0;    font-weight: 100;    font-size: 16px;}
 
 .news {
     background-color: #f4f4f4;

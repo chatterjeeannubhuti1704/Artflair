@@ -4,11 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
     <title>Artflair</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" type=".css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" type=".css">
+
+
 </head>
 
 <body>
@@ -84,11 +89,11 @@
                             <div class="row">
                                 <div class="col-6">
                                     <input class="booking-form-input" type="text" placeholder="Enter your name">
-                                    <input  class="booking-form-input"  type="tel" placeholder="Enter you number">
+                                    <input class="booking-form-input" type="tel" placeholder="Enter you number">
                                 </div>
                                 <div class="col-6">
-                                    <input  class="booking-form-input"  type="email" placeholder="Enter your email">
-                                    <input  class="booking-form-input"  type="text" placeholder="Enter your Current City">
+                                    <input class="booking-form-input" type="email" placeholder="Enter your email">
+                                    <input class="booking-form-input" type="text" placeholder="Enter your Current City">
                                 </div>
                             </div>
 
@@ -518,16 +523,196 @@
     </section>
 
 
-    <!-- <section class="testimonial">
+    <section class="testimonial">
         <div class="my-container">
-            <p class="locator-text locator-gradiant">Testimonials</p>
-            <h1 class="darkh1">Our <b>Happy</b> Clients</h1>
-            <p>Every wall has a story – that’s what we believe at Artflare. Our indoor painting services are dedicated
-                to creating a unified blend of your style and personality within the boundaries of your home. </p>
-            <p>Testimonial</p>
+            <div class="testimonial-container">
+                <p class="locator-text locator-gradiant">Testimonials</p>
+                <div class="row">
+                    <div class="col-lg-7">
+
+                        <h1 class="darkh1">Our <b>Happy</b> Clients</h1>
+                        <p class="desc">Every wall has a story – that’s what we believe at Artflare. Our indoor painting
+                            services are dedicated
+                            to creating a unified blend of your style and personality within the boundaries of your
+                            home. </p>
+                    </div>
+                    <div class="col-lg-2 offset-lg-3 contol-btns">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+                <div id="carouselExampleInterval" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="false">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="user-card">
+                                        <div class="review-part">
+                                            <p>Thanks, Artflare for transforming my home to a house I’ve only
+                                                watched in
+                                                movies.</p>
+                                        </div>
+                                        <div class="user-part">
+                                            <img src="img/user1.svg" alt="">
+                                            <div>
+                                                <p>Kunal Basu</p>
+                                                <p>Businessman</p>
+                                                <p><span><img src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="user-card">
+                                        <div class="review-part">
+                                            <p>I had a very tight deadline. I didn’t think Artflare would be
+                                                able to do
+                                                it.But they finished
+                                                the project even before time! Kudos!</p>
+                                        </div>
+                                        <div class="user-part">
+                                            <img src="img/User2.svg" alt="">
+                                            <div>
+                                                <p>Aditya Paul</p>
+                                                <p>Businessman</p>
+                                                <p><span><img src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="user-card">
+                                        <div class="review-part">
+                                            <p>IIt was an amazing experience with Artflare. I’m blown away with
+                                                their
+                                                expertise and
+                                                creativity.</p>
+                                        </div>
+                                        <div class="user-part">
+                                            <img src="img/User3.svg" alt="">
+                                            <div>
+                                                <p>Sweta Acharya</p>
+                                                <p>Home Maker</p>
+                                                <p><span><img src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    
+                    
+                        <div class="carousel-item" data-interval="false">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="user-card">
+                                        <div class="review-part">
+                                            <p>Thanks, Artflare for transforming my home to a house I’ve only
+                                                watched in
+                                                movies.</p>
+                                        </div>
+                                        <div class="user-part">
+                                            <img src="img/user4.svg" alt="">
+                                            <div>
+                                                <p>Priyanka Sharma</p>
+                                                <p>Service</p>
+                                                <p><span><img src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="user-card">
+                                        <div class="review-part">
+                                            <p>IIt was an amazing experience with Artflare. I’m blown away with
+                                                their
+                                                expertise and
+                                                creativity.</p>
+                                        </div>
+                                        <div class="user-part">
+                                            <img src="img/User3.svg" alt="">
+                                            <div>
+                                                <p>Sweta Acharya</p>
+                                                <p>Home Maker</p>
+                                                <p><span><img src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="user-card">
+                                        <div class="review-part">
+                                            <p>Thanks, Artflare for transforming my home to a house I’ve only
+                                                watched in
+                                                movies.</p>
+                                        </div>
+                                        <div class="user-part">
+                                            <img src="img/user1.svg" alt="">
+                                            <div>
+                                                <p>Kunal Basu</p>
+                                                <p>Businessman</p>
+                                                <p><span><img src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span><span><img
+                                                            src="img/star.svg" alt=""></span>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                           
+                    </div>
+
+                </div>
+            </div>
+
         </div>
 
-    </section> -->
+
+
+
+
+    </section>
 
 
     <section class="news">
@@ -577,42 +762,42 @@
     <section class="contact-us">
         <div class="my-container">
             <div class="contact-us-container">
-                
-            <div class="row">
-                <div class="col-lg-4 contactus-left">
-<p class="locator-text locator-white">Contact us</p>
-                    <h1 class="lighth1">Keep in <b>touch</b> </h1>
-                    <p class="desc white-desc">Lorem ipsum dolor sit amet, consectetur adipisicing eli </p>
-                </div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-6 booking-form2">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <input  class="booking-form-input"  type="text" placeholder="Enter your name">
-                                <input  class="booking-form-input"  type="email" placeholder="Enter your email">
-                                <input  class="booking-form-input"  type="tel" placeholder="Enter you number">
+
+                <div class="row">
+                    <div class="col-lg-4 contactus-left">
+                        <p class="locator-text locator-white">Contact us</p>
+                        <h1 class="lighth1">Keep in <b>touch</b> </h1>
+                        <p class="desc white-desc">Lorem ipsum dolor sit amet, consectetur adipisicing eli </p>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-6 booking-form2">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input class="booking-form-input" type="text" placeholder="Enter your name">
+                                    <input class="booking-form-input" type="email" placeholder="Enter your email">
+                                    <input class="booking-form-input" type="tel" placeholder="Enter you number">
+                                </div>
+                                <div class="col-lg-6">
+                                    <textarea placeholder="Message" name="Message"></textarea>
+
+                                </div>
                             </div>
-                            <div class="col-lg-6">
-                                <textarea placeholder="Message" name="Message"></textarea>
-                               
-                            </div>
-                        </div>
 
 
 
-                    </form>
-                    <button class="secondary-button" type="submit">SEND MESSAGE</button>
+                        </form>
+                        <button class="secondary-button" type="submit">SEND MESSAGE</button>
+                    </div>
                 </div>
+
             </div>
 
-            </div>
-            
 
         </div>
     </section>
 
-     <section class="footer">
+    <section class="footer">
         <div class="my-container">
             <div class="main-footer">
                 <div class="row">
@@ -622,17 +807,18 @@
                         <p class="desc">After providing interior and exterior home color paint
                             solutions to our clients across Kolkata for a decade,
                             Artflare has fostered the ability to transform a space
-                            with the magic of color. </p><p class="desc">
+                            with the magic of color. </p>
+                        <p class="desc">
                             From houses to commercial properties, we are the most
                             reliable house painting contractors in Kolkata equipped
                             to transform your space while giving it a character. </p>
                     </div>
                     <div class="col-lg-7 right-side">
                         <div class="row">
-                            <div class="col-1"></div>
-                            <div class="col-lg-3">
+
+                            <div class="col-lg-3 offset-lg-1">
                                 <p class="head-desc">Quick Links</p>
-                                <ul >
+                                <ul>
                                     <li class="desc">Home</li>
                                     <li class="desc">About Us</li>
                                     <li class="desc">Services</li>
@@ -653,14 +839,16 @@
                             <div class="col-lg-5">
                                 <p class="head-desc">Contact Us</p>
                                 <ul>
-                                    <li class="contact-info-col" ><img src="img/footer1.png" alt="">
-                                        <p class="desc">107 Rabindra sarani Durganagar India 
-                                        Kolkata 700065</p>
+                                    <li class="contact-info-col"><img src="img/footer1.png" alt="">
+                                        <p class="desc">107 Rabindra sarani Durganagar India
+                                            Kolkata 700065</p>
                                     </li>
-                                    <li class="contact-info-col"  ><img src="img/footer2.png" alt="">
-                                        <p class="desc">Info@artflareinterior.com</p></li>
-                                    <li class="contact-info-col"  ><img src="img/footer3.png" alt="">
-                                        <p class="desc">+91 1234 5678</p></li>
+                                    <li class="contact-info-col"><img src="img/footer2.png" alt="">
+                                        <p class="desc">Info@artflareinterior.com</p>
+                                    </li>
+                                    <li class="contact-info-col"><img src="img/footer3.png" alt="">
+                                        <p class="desc">+91 1234 5678</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -692,6 +880,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
