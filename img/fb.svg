@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="34" viewBox="0 0 33 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="-14" y="-14" width="74" height="75" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="6.364" dy="6.364" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.359"/>
+      <feFlood result="flood" flood-color="#090909" flood-opacity="0.14"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="0" y="0" width="33" height="34" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzMiIGhlaWdodD0iMzQiIHZpZXdCb3g9IjAgMCAzMyAzNCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIxLjcyMiIgeDI9IjMxLjI3OCIgeTI9IjM0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iLTAuMjUiIHN0b3AtY29sb3I9IiNmYTFkOGYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxLjI1IiBzdG9wLWNvbG9yPSIjMTc1ZWFkIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIzMyIgaGVpZ2h0PSIzNCIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <rect class="cls-1" width="33" height="34"/>
+  <image x="13" y="10" width="8" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAOCAYAAAASVl2WAAAAnklEQVQYlb2QMQ6BQRSEP6LgBkKjJqEQV1DoNRKHcAvnUDmCzgVoJP5SFJK/VChUMvL+rGRs1CbZ7OzsvDd5ryaJDCNgCLSAPWFIJ8wbfWNVt+IZsMy6vRr2mBhfADvg4Yam8RNwr5ikuaSDpNLSz0mbRoceMM6y++nuhOEGHIEu0E4fBfAESh9zbRGDj+5j/sQfDL6oLXCJ1QDXSgHeCP9m5OFTwCoAAAAASUVORK5CYII="/>
+</svg>

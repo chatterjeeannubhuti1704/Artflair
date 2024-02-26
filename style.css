@@ -531,10 +531,55 @@ h6 b {
 }
 
 
+.footer{
+background-color:#2d2e42;}
+.main-footer{
+    border-bottom: 1px solid #404152;    padding: 6rem 0;
+}
+.main-footer .left-side{
+    border-right: 1px solid #404152;    padding: 0 10rem 0rem 0;
+}
+.main-footer .left-side img{
+margin-bottom: 2rem;}
+.main-footer .head-desc{
+    font-size: 22px;
+}
+.main-footer .desc{
+    color:#9fa0b1;
+}
+.main-footer .right-side ul {
+    list-style: none;    margin: 0;
+    padding: 0;
+}
+.main-footer .right-side ul li {margin: 1rem 0;}
+.main-footer .right-side .contact-info-col{
+    display: flex;
+    align-items: center;
+    
+}
+.main-footer .right-side .contact-info-col .desc{
+margin: 0 0 0 6px;
+}
 
 
-
-
+.sub-footer div{
+    display: flex;    justify-content: space-between;    align-items: center;    padding: 1rem 0;
+}
+.sub-footer-icons img{
+    margin: 0 10px 0 0;
+}
+.terms, .terms:hover{
+    color: #9899a9; text-decoration: none;margin: 0;font-size: 14px;}
+.Privacy, .Privacy:hover
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 1rem;
+    border-left: 1px solid  #9899a9;
+    border-right: 1px solid  #9899a9;
+    padding: 0px 1rem;
+}
 
 
 @media screen and (max-width:1199px) {
