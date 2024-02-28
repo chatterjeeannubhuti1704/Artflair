@@ -86,6 +86,7 @@ h6 {
     color: #2b2a2a;
     font-family: "Geomanist";
     font-weight: 200 !important;
+    padding-bottom: 1rem;
 }
 
 h6 b {
@@ -170,6 +171,10 @@ h6 b {
     padding: 0;
 }
 
+.callicon {
+    margin-right: 10px;
+}
+
 .banner {
     padding: 8rem 0 24rem 0;
 }
@@ -246,7 +251,8 @@ h6 b {
 
 
 .welcome {
-    background: url(img/banner2.png);
+    background: url(img/banner2.png) no-repeat;
+    background-size: cover;
 }
 
 .welcome-content {
@@ -257,6 +263,9 @@ h6 b {
     width: 92%;
 }
 
+.content:nth-child(2) h6 {
+    padding: 2rem 0 1rem 0;
+}
 
 
 .banner-two {
@@ -363,7 +372,8 @@ h6 b {
 
 
 .why-choose-us {
-    background: url(img/banner4.png);
+    background: url(img/banner4.png) no-repeat;
+    background-size: cover;
 }
 
 .why-choose-us-content {
@@ -401,6 +411,8 @@ h6 b {
 
 .how-we-do .steps {
     margin: 5rem 0;
+        display: flex;
+        justify-content: center;
 }
 
 
@@ -439,37 +451,62 @@ h6 b {
 
 }
 
-.testimonial{
+.testimonial {
     background-color: #f3e8db;
 }
-.testimonial-container{
+
+.testimonial-container {
     padding: 5rem 0;
 }
-.contol-btns .carousel-control-prev, .contol-btns .carousel-control-next{
+
+.contol-btns .carousel-control-prev,
+.contol-btns .carousel-control-next {
     position: static;
     display: inline-block;
     padding: 0.6rem 1rem 0.4rem;
-    background: linear-gradient(133deg, #fa1d8f,#175ead);
+    background: linear-gradient(133deg, #fa1d8f, #175ead);
     opacity: 100%;
     width: auto;
     border-radius: 0 !important;
-    margin: 0 1rem;}
-    .user-card{
-background: #fff;border:1px solid #eaeaea;padding:1rem 2rem;}
-.review-part{
-    border-bottom: 1px solid #eaeaea;height: 10rem;
+    margin: 0 1rem;
 }
-.review-part p{
-    font-size: 24px;    font-weight: 300;
+
+.user-card {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    padding: 1rem 2rem;
 }
-.user-part{
-    display: flex;    align-items: center;    justify-content: flex-start;
+
+.review-part {
+    border-bottom: 1px solid #eaeaea;
+    height: 10rem;
 }
-.user-part div{
+
+.review-part p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.user-part {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.user-part div {
     padding: 1rem;
 }
-.user-part div p:nth-child(1){margin: 0;    font-size: 22px;}
-.user-part div p:nth-child(2){margin: 0;    font-weight: 100;    font-size: 16px;}
+
+.user-part div p:nth-child(1) {
+    margin: 0;
+    font-size: 22px;
+}
+
+.user-part div p:nth-child(2) {
+    margin: 0;
+    font-weight: 100;
+    font-size: 16px;
+}
 
 .news {
     background-color: #f4f4f4;
@@ -509,6 +546,7 @@ background: #fff;border:1px solid #eaeaea;padding:1rem 2rem;}
 
 .contact-us {
     background: url(img/con-us.png) no-repeat;
+    background-size: cover;
 }
 
 .contact-us-container {
@@ -558,85 +596,163 @@ background: #fff;border:1px solid #eaeaea;padding:1rem 2rem;}
 }
 
 
-.footer{
-background-color:#2d2e42;}
-.main-footer{
-    border-bottom: 1px solid #404152;    padding: 6rem 0;
+.footer {
+    background-color: #2d2e42;
 }
-.main-footer .left-side{
-    border-right: 1px solid #404152;    padding: 0 10rem 0rem 0;
+
+.main-footer {
+    border-bottom: 1px solid #404152;
+    padding: 6rem 0;
 }
-.main-footer .left-side img{
-margin-bottom: 2rem;}
-.main-footer .head-desc{
+
+.main-footer .left-side {
+    border-right: 1px solid #404152;
+    padding: 0 10rem 0rem 0;
+}
+
+.main-footer .left-side img {
+    margin-bottom: 2rem;
+}
+
+.main-footer .head-desc {
     font-size: 22px;
 }
-.main-footer .desc{
-    color:#9fa0b1;
+
+.main-footer .desc {
+    color: #9fa0b1;
 }
+
 .main-footer .right-side ul {
-    list-style: none;    margin: 0;
+    list-style: none;
+    margin: 0;
     padding: 0;
 }
-.main-footer .right-side ul li {margin: 1rem 0;}
-.main-footer .right-side .contact-info-col{
+
+.main-footer .right-side ul li {
+    margin: 1rem 0;
+}
+
+.main-footer .right-side .contact-info-col {
     display: flex;
     align-items: center;
-    
+
 }
-.main-footer .right-side .contact-info-col .desc{
-margin: 0 0 0 6px;
+
+.main-footer .right-side .contact-info-col .desc {
+    margin: 0 0 0 6px;
 }
 
 
-.sub-footer div{
-    display: flex;    justify-content: space-between;    align-items: center;    padding: 1rem 0;
+.sub-footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
 }
-.sub-footer-icons img{
+
+.sub-footer-icons img {
     margin: 0 10px 0 0;
 }
-.terms, .terms:hover{
-    color: #9899a9; text-decoration: none;margin: 0;font-size: 14px;}
-.Privacy, .Privacy:hover
-{
+
+.terms,
+.terms:hover {
+    color: #9899a9;
+    text-decoration: none;
+    margin: 0;
+    font-size: 14px;
+}
+
+.Privacy,
+.Privacy:hover {
     color: #fff;
     text-decoration: none;
     font-size: 14px;
     margin: 0 1rem;
-    border-left: 1px solid  #9899a9;
-    border-right: 1px solid  #9899a9;
+    border-left: 1px solid #9899a9;
+    border-right: 1px solid #9899a9;
     padding: 0px 1rem;
 }
 
+@media screen and (max-width:1441px) {
 
+    .news-col .hover-box {
+        bottom: -65%;
+    }
 
+    .banner {
+        padding: 8rem 0 13rem 0;
+    }
 
-/* .carousel-item{  
-    position: relative !important;
-    display: inline-block !important;
-    float: none !important;
-    width: 42% !important;
-    margin-right:0% !important;
-    -webkit-backface-visibility: visible !important;
-    backface-visibility: visible !important;
-    opacity: 0.6 !important;
-    transition: none !important;}
-.carousel-item.active{
-    display: inline-block !important;
-    opacity: 1 !important;
-  
-} */
+    .review-part {
+        height: 15rem;
+    }
+}
 
+@media screen and (max-width:1399px) {
+    .my-container {
+        max-width: 90%;
+    }
 
+    .news-col .hover-box {
+        bottom: -70%;
+    }
 
-
-
-
+    .big-h1 {
+        font-size: 76px !important;
+    }
+}
 
 
 @media screen and (max-width:1199px) {
+    h1 {
+        font-size: 3.4rem !important;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 36px !important;
+    }
+
+    button {
+        padding: 1.2rem 1.5rem;
+    }
+
+    .head-desc {
+        font-size: 24px;
+    }
+
+    .my-nav .container-fluid {
+        padding: 0;
+    }
+
+    .booking-form form {
+        padding: 0 20px 0 50px;
+    }
+
+    .my-nav .navbar-nav {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .banner {
+        padding: 2rem 0 13rem 0;
+    }
+
+    .big-h1 {
+        font-size: 64px !important;
+    }
+
+
+    .banner-two .col-lg-6 {
+        padding: 5rem 0;
+    }
+
     .reasons>div {
         margin: 0 0px 2px 0;
+        width: 80%;
     }
 
     .reasons {
@@ -644,14 +760,123 @@ margin: 0 0 0 6px;
         display: inline-flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .grid-parent {
         grid-template-columns: 1fr 1fr;
     }
+
+    .review-part p {
+        font-size: 20px;
+    }
+
+    .user-part div p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .user-part div p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    
+
+    .how-we-do .inner-content {
+        padding: 5rem 0 10rem 0;
+    }
+
+    .news-col .hover-box {
+        bottom: -65%;
+    }
+
+    .main-footer .left-side {
+        padding: 0 10px 0 0;
+    }
+
+    .main-footer {
+        padding: 4rem 0;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .navbar-collapse {
+        background: rgba(255, 255, 255, 0.98);
+        padding: 1rem;
+        top: 50px;
+        width: 100%;
+
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+    .my-nav .navbar-call-btn {
+        font-size: 18px !important;
+        padding: 1rem 0;
+    }
+
+    .booking-form {
+        margin-top: -8rem;
+        padding: 1.4rem;
+    }
+
+    .booking-form br {
+        display: none;
+    }
+
+    .booking-form form {
+        padding: 1rem;
+    }
+
+    .submit-btn-col {
+        text-align: center;
+    }
+
+    .gallery h1 {
+        font-size: 2rem !important;
+    }
+
+    h1 {
+        font-size: 2.8rem !important;
+        padding: 0 0 1rem 0;
+    }
+
+    .banner-two .col-lg-6 {
+        padding: 3rem 0;
+    }
+    .how-we-do {
+        background-position: 39%;}
+    .how-we-do .my-container{
+        max-width: 100%;
+    }
+
+    .how-we-do .inner-content {
+        padding: 3rem 1rem;
+        background: #00000057;
+    }
+
+    .carousel-item .col-lg-4 {
+        margin: 1rem;
+
+    }
+
+    .review-part {
+        height: auto;
+    }
+
+    .news-col .hover-box {
+        bottom: -80%;
+    }
+
+    .banner-two .col-lg-6 {
+        padding: 3rem 0;
+    }
 }
 
 @media screen and (max-width:769px) {
+
     .grid-parent {
         grid-template-columns: 1fr;
     }
@@ -659,4 +884,120 @@ margin: 0 0 0 6px;
     .grid-parent2 {
         grid-template-columns: 1fr;
     }
+
+    .booking-form2 form .booking-form-input::placeholder,
+    .booking-form2 form textarea::placeholder {
+        color: #fffcee !important;
+        font-weight: 500;
+    }
+
+    .booking-form2 form textarea {
+        padding: 15px;
+    }
+
+    .main-footer .left-side {
+        padding: 0 15px;
+    }
+
+    .hover-box {
+        bottom: -90%;
+    }
+
+    .news-col .hover-box {
+        bottom: -68%;
+    }
+
+    .Privacy,
+    .Privacy:hover {
+        color: #9899a8;
+        padding: 0px 1rem;
+        border: none;
+    }
+
+    .contol-btns {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .contol-btns button {
+        margin: 0;
+    }
+   
+}
+
+@media screen and (max-width:575px) {
+    h1 {
+        font-size: 2.4rem !important;
+    }
+
+    button {
+        padding: 1rem 1.5rem;
+        font-size: 14px !important;
+    }
+    .head-desc {
+        font-size: 20px;
+    }
+    .welcome-content,
+    .why-choose-us-content,
+    .our-projects,
+    .faq-container,
+    .news-container,
+    .testimonial-container,
+    .grid-parent {
+        padding: 3rem 0;
+    }
+
+    .carousel-item .col-lg-4 {
+        margin: 1rem 0;
+    }
+
+    .news-col .hover-box {
+        bottom: -60%;
+    }
+
+    .faq-container .accordion-button {
+        font-size: 20px !important;
+        padding: 1rem 0;
+        margin: 0;
+    }
+
+    .faq-container .accordion-body {
+        padding: 1.2rem 0;
+        font-size: 14px;
+    }
+
+    .view-all-btn-div {
+        justify-content: left;
+    }
+
+    .reasons {
+        margin: 1rem 0;
+    }
+
+    .reasons>div {
+        width: 100%;
+    }
+
+    .my-nav-tab .nav-link {
+        font-size: 13px !important;padding: 0.5rem !important;
+    }
+    .review-part p {
+        font-size: 18px;
+    }
+    .booking-form-input {
+        padding: 10px 0px;
+    }
+    .faq-container .row {
+        margin: 2rem 0;
+    }
+.booking-form2 form textarea {
+    height: auto;padding: 0px;}
+
+    .reasons>div {
+        padding: 1rem ;
+    }
+    .banner-two {
+        background-position: 70%;}
+        .herosection {
+            background-position: 50%;}
 }
