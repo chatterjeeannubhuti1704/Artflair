@@ -609,6 +609,31 @@ margin: 0 0 0 6px;
 }
 
 
+
+
+/* .carousel-item{  
+    position: relative !important;
+    display: inline-block !important;
+    float: none !important;
+    width: 42% !important;
+    margin-right:0% !important;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    opacity: 0.6 !important;
+    transition: none !important;}
+.carousel-item.active{
+    display: inline-block !important;
+    opacity: 1 !important;
+  
+} */
+
+
+
+
+
+
+
+
 @media screen and (max-width:1199px) {
     .reasons>div {
         margin: 0 0px 2px 0;
