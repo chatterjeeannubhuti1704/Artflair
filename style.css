@@ -22,6 +22,7 @@ button {
     text-transform: uppercase !important;
     letter-spacing: 2px;
     color: #fff;
+    margin: 1rem 0 !important;
 }
 
 .primary-button {
@@ -36,13 +37,22 @@ button {
     font-family: "LibreBaskerville";
     font-weight: 400;
     font-size: 20px;
-    width: fit-content;
+    width: fit-content;position: relative;
+}
+.locator-text::after{
+    content:"";background: -webkit-linear-gradient(45deg, #fa1d8f, #00d0ff);    
+    position: absolute;
+    left: -15px;
+    bottom: -6px;
+    width: 90%;
+    height: 3px;
 }
 
 .locator-gradiant {
-    background: -webkit-linear-gradient(45deg, #fa1d8f, #175ead);
+    background: -webkit-linear-gradient(45deg, #fa1d8f, #00d0ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 .locator-white {
@@ -97,7 +107,9 @@ h6 b {
     font-size: 28px !important;
     font-weight: 500 !important;
 }
-
+.desc-hero{
+    color: #616161;font-size: 30px;
+}
 .desc {
     font-family: "Geomanist";
     font-weight: 200;
@@ -138,7 +150,9 @@ h6 b {
     transition: 0.6s;
 }
 
-
+.hover-box .white-desc{
+    display: none;
+}
 
 
 .herosection {
@@ -176,7 +190,7 @@ h6 b {
 }
 
 .banner {
-    padding: 8rem 0 24rem 0;
+    padding: 8rem 0 20rem 0;
 }
 
 .booking-form-section {
@@ -248,6 +262,28 @@ h6 b {
 }
 
 
+.navbar-nav .dropdown-menu {
+    position: absolute ;
+    background: linear-gradient(45deg, #ed248f, #2e5ba7);
+    border: none;
+    margin: 0;padding: 0;
+}
+.dropdown-item:active ,.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff !important;
+    background-color: #e9ecef47 !important;
+    font-weight: 500 !important;
+}
+.dropdown-item {
+    padding: 15px !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
 
 
 .welcome {
@@ -312,8 +348,8 @@ h6 b {
     opacity: 90%;
 
 }
-
-
+.grid-parent>div:hover .hover-box .white-desc {
+display: block;}
 
 .our-projects {
     background-color: #f5ece2;
@@ -369,7 +405,6 @@ h6 b {
     opacity: 90%;
 
 }
-
 
 .why-choose-us {
     background: url(img/banner4.png) no-repeat;
@@ -451,6 +486,18 @@ h6 b {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .testimonial {
     background-color: #f3e8db;
 }
@@ -468,8 +515,10 @@ h6 b {
     opacity: 100%;
     width: auto;
     border-radius: 0 !important;
-    margin: 0 1rem;
+    margin: 0 1rem !important;
 }
+.carousel-inner {
+    margin: 2rem 0;}
 
 .user-card {
     background: #fff;
@@ -535,7 +584,8 @@ h6 b {
     opacity: 90%;
 
 }
-
+.news-col:hover .hover-box .white-desc {
+    display: block;}
 .news .date {
     font-size: 14px;
     color: #fff;
@@ -673,7 +723,7 @@ h6 b {
     padding: 0px 1rem;
 }
 
-@media screen and (max-width:1441px) {
+@media screen and (max-width:1499px) {
 
     .news-col .hover-box {
         bottom: -65%;
